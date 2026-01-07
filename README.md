@@ -1,6 +1,6 @@
 # Sort-Images
 
-A simple tool to sort a large number of mixed photographs (.JPG, .ARW (sony RAW files)) into separate folders.
+A simple tool to sort a large number of mixed photographs (.JPG, .ARW (sony RAW files)) into a clean folder structure based on date the images were taken.
 
 Usage: Sort-Images.exe <source_directory> <optional_destination_directory>
 

@@ -1,16 +1,16 @@
 # Sort-Images
 
-A simple tool to sort a large number of mixed photographs (.JPG, .ARW (sony RAW files)) into a clean folder structure based on date the images were taken.
+A simple tool to sort a large number of camera photographs (.JPG, .ARW (sony RAW)) and videos into a clean folder structure based on date the images/videos were taken.
 
 Usage: Sort-Images.exe <source_directory> <optional_destination_directory>
 
 * Image date taken is read from EXIF, a folder with YYYY-DD-MM format is created (if not already existing) and the file is moved into the folder.
 * Allows RAWs to be separated from JPGs in a separate folder (requires uncommenting / recompiling as i was too lazy to provide a command line switch).
-* Allows files to be processed in-place (i.e. source and dest folder are same). Useful if you want to switch between RAW in separate folder vs RAWs in same folder as JPG.
+* Allows files to be processed in-place (i.e. source and dest folder are same). Useful if you want to switch between RAW in separate folder vs RAWs in same folder as JPG or just an inplace cleanup.
 
-Since Images have sentimental value and I used this program to sort my own pictures, the code/APIs used are carefully written/selected and guaranteed to not corrupt, misplace, overwrite or delete files.
+Since Images have sentimental value, the code/APIs used are carefully written/selected and guaranteed to not corrupt, misplace, overwrite or delete files.
 
-I wrote this program when I need to sort 40 thousand+ of my own files lying around in multiple harddrives into one clean structure.
+I wrote this program when I need to sort 40+ thousand of my own personal pictures taken over 20 years spread around multiple harddrives into one clean structure.
 
 This is how the destination folder will look like after the program is done sorting files:
 
